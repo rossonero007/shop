@@ -1,0 +1,38 @@
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header {
+    background: #222222;
+}
+
+.header_block {
+    display: flex;
+    align-items: center;
+    padding: 19px 0;
+}
+
+.header__left,
+.header__right {
+    width: 50%;
+}
+
+.header__right {
+    text-align: end;
+}
+
+.header__logo {
+    margin-right: 41px;
+    text-decoration: none;
+}
+
+.header__item {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header__item:not(:last-child) {
+    margin-right: 33px;
+}
