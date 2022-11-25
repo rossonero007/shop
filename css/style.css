@@ -117,3 +117,58 @@ h1 > .decor {
     height: 180px;
     
 }
+/*price*/
+
+.price__block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0 0 48px 0;
+}
+.price__title {
+    text-align: center;
+}
+.price__title > h2 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+}
+.price__title > p {
+    font-size: 14px;
+    color: #9F9F9F;
+    padding-top: 6px;
+    padding-bottom: 48px;
+}
+.price__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 360px;
+    height: 581px;
+    background-color: #F8F8F8;
+}
+.price__info {
+    margin: 24px 45px 20px 16px;
+    
+}
+.price__info > a {
+    text-decoration: none;
+    color: black;
+}
+.price__info > p {
+    font-size: 14px;
+    color: #5D5D5D;
+    margin: 13px 45px 18px 0;
+    font-weight: 300;
+}
+.price__info > span {
+    color: #F16D7F;
+    font-size: 16px;
+}
+.price__button {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #FF6A6A;
+}
