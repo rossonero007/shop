@@ -36,3 +36,40 @@
 .header__item:not(:last-child) {
     margin-right: 33px;
 }
+
+/* Intro styles */
+
+.intro {
+    height: 764px;
+    background: #F1E4E6;
+}
+
+.intro__block {
+    display: flex;
+    justify-content: end;
+    height: 100%;
+    align-items: center;
+    background-image: url('../img/man.png');
+    background-repeat: no-repeat;
+    background-position: -197px 20px;
+}
+
+.intro__text {
+    width: 40%;
+    padding-left: 28px;
+    font-size: 32px;
+    border-left: 12px solid #F16D7F;
+}
+
+h1 {
+    max-width: 333px;
+}
+
+h1 > .large {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h1 > .decor {
+    color: #F16D7F;
+}
