@@ -169,6 +169,12 @@ h1 > .decor {
 .price__button {
     display: flex;
     justify-content: center;
-    font-size: 16px;
-    color: #FF6A6A;
 }
+.price__button > a {
+    text-decoration: none;
+    color: #F26376;
+    font-size: 16px;
+    outline: #F26376 solid 1px;
+    padding: 15px 39px 14px 39px;
+}
+/*services*/
