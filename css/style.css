@@ -149,7 +149,7 @@ h1 > .decor {
     background-color: #F8F8F8;
 }
 .price__info {
-    margin: 24px 45px 20px 16px;
+    padding: 24px 45px 20px 16px;
     
 }
 .price__info > a {
@@ -159,7 +159,7 @@ h1 > .decor {
 .price__info > p {
     font-size: 14px;
     color: #5D5D5D;
-    margin: 13px 45px 18px 0;
+    padding: 13px 45px 18px 0;
     font-weight: 300;
 }
 .price__info > span {
@@ -178,3 +178,39 @@ h1 > .decor {
     padding: 15px 39px 14px 39px;
 }
 /*services*/
+.services {
+    background-color: #222224;
+    padding: 104px 0;
+    margin-top: 95px;
+}
+
+.services__block {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services__item {
+    width: 33%;
+    max-width: 360px;
+    text-align: center;
+}
+
+.services__item img {
+    min-height: 40px;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 28px;
+    padding-bottom: 16px;
+}
+p {
+    color: #FBFBFB;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 17px;
+}
