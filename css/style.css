@@ -322,7 +322,60 @@ border: none;
 /*filter*/
 .filter__block {
     position: relative;
+
+}
+.filter__block[open] > .filter {
+    color: #EF5B70;
+}
+::-webkit-details-marker {
+    display: none;
+}
+.filter {
+    display: block;
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+.clothes[open] > .category__item {
+    color: #EF5B70;
+}
+.category__item {
+    display: block;
+    font-weight: 400;
+    color: #6F6E6E;
+    border-left: 5px solid #EF5B70;
+    margin-bottom: 18px;
+    padding: 11px;
+    border-bottom: 1px solid #EBEBEB;
+    width: 327px;
+
+}
+ul {
+    padding: 0 13px 13px 13px;
+}
+li {
+    font-size: 14px;
+    color: #6F6E6E;
+    padding: 11px;
 }
 .filter__list {
     position: absolute;
+    background-color: #ffffff;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+.brands__item {
+    display: block;
+    color: #6F6E6E;
+    border-left: 5px solid #EF5B70;
+    margin-bottom: 18px;
+    padding: 11px;
+    border-bottom: 1px solid #EBEBEB;
+}
+.disegners__item {
+    display: block;
+    color: #6F6E6E;
+    border-left: 5px solid #EF5B70;
+    margin-bottom: 18px;
+    padding: 11px;
+    border-bottom: 1px solid #EBEBEB;
 }
