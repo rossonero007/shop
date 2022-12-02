@@ -382,7 +382,29 @@ li {
 	padding: 11px;
 	border-bottom: 1px solid #ebebeb;
 }
-
 .pink {
     text-align: center;
+    background-color: #F7E4E2;
+    padding: 9px 110px 10px 108px;
 }
+.treding {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+.size__block {
+    display: block;
+    color: #6F6E6E;
+    font-size: 14px;
+    padding-right: 28px;
+}
+.checkbox {
+    padding: 6px;
+}
+.treding__block[open] {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+
