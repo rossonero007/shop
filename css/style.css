@@ -118,7 +118,9 @@ h1 > .decor {
     
 }
 /*price*/
-
+.price {
+    margin-bottom: 95px;
+}
 .price__block {
     display: flex;
     flex-wrap: wrap;
@@ -181,7 +183,6 @@ h1 > .decor {
 .services {
     background-color: #222224;
     padding: 104px 0;
-    margin-top: 95px;
 }
 
 .services__block {
@@ -290,4 +291,38 @@ border: none;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+/*breadcrumb*/
+.breadcrumb {
+    background-color: #F8F3F4;
+}
+.breadcrumb__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.breadcrumb__title {
+    color: #F16D7F;
+    font-size: 24px;
+    padding: 59px 0 60px 0;
+}
+.breadcrumb__links {
+    padding: 65px 0 66px 0;
+}
+.breadcrumb__links > a {
+    text-decoration: none;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 300;
+}
+.breadcrumb__links > a.active {
+    color: #F16D7F;
+    font-weight: 700;
+}
+/*filter*/
+.filter__block {
+    position: relative;
+}
+.filter__list {
+    position: absolute;
 }
