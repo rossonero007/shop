@@ -17,14 +17,25 @@ body {
 	align-items: center;
 	padding: 19px 0;
 }
+.icon:hover {
+	fill: #f16d7f;
+}
+.icon {
+	fill: #E8E8E8;;
+}
 
 .header__left,
 .header__right {
 	width: 50%;
 }
-
+.header__left {
+	display: flex;
+	align-items: center;
+}
 .header__right {
-	text-align: end;
+	display: flex;
+	align-items: center;
+	justify-content: end;
 }
 
 .header__logo {
