@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-	max-width: 1160px;
+	max-width: 1140px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
@@ -50,6 +50,131 @@ body {
 
 .header__item:not(:last-child) {
 	margin-right: 33px;
+}
+/*cover styles*/
+.slide {
+	margin: 50px auto;
+}
+.cover {
+	overflow-y: hidden;
+}
+
+.cover > div {
+	width: 100%;
+}
+
+.slide-block {
+	display: flex;
+	justify-content: center;
+}
+
+.button__slide {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 11px 0 42px 0;
+	}
+.icon__button {
+		fill: black;
+}
+.button__left,
+.button__right {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.flex-slide {
+		display: flex;
+		overflow-y: hidden;
+		position: relative;
+
+}
+.arrow {
+	position: absolute;
+	top: 50%;
+	z-index: 99;
+	border: none;
+	background-color: none;
+}
+
+.arrow.right {
+	right: 0;
+}
+
+/*collection styles*/
+.collection__block > h2 {
+	font-size: 14px;
+	font-weight: 300;
+	color: #F16D7F;
+}
+.collection__block > h2::after {
+	content: '';
+	display: block;
+	width: 63px;
+	height: 3px;
+	background-color: #EF5B70;
+	margin: 12px auto;
+}
+.collection__block > h3 {
+	font-size: 18px;
+	font-weight: 300;
+	padding-bottom: 48px;
+}
+.collection__block > p {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 17px;
+	margin: 0 293px 32px;
+	color: #5E5E5E;
+}
+.collection__block > span {
+	font-size: 24px;
+	font-weight: 300;
+	color: #EF5B70;
+}
+.collection__block > span::after {
+	content: '';
+	display: block;
+	width: 642px;
+	height: 1px;
+	background-color: #EAEAEA;
+	margin: 64px auto;
+}
+.collection__block {
+	padding-bottom: 128px;
+	text-align: center;
+}
+.choose {
+	display: flex;
+    justify-content: center;
+    max-width: 100%;
+	padding-bottom: 48px;
+}
+.quantity__block {
+	display: block;
+    color: #6F6E6E;
+    font-size: 14px;
+    padding-right: 28px;
+}
+.cart__block {
+	display: flex;
+    align-items: center;
+	justify-content: start;
+    margin: 0 auto;
+	border: solid 1px #FF6A6A;
+	background-color: #FFFFFF;
+	width: 212px;
+	height: 48px;
+}
+.cart__block > a {
+	text-decoration: none;
+	color: #F26376;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+}
+.cart {
+	margin: 0 23px;
 }
 
 /* Intro styles */
