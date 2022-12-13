@@ -1,0 +1,31 @@
+.services {
+	background-color: #222224;
+	padding: 104px 0;
+    &__block {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__item {
+        width: 33%;
+        max-width: 360px;
+        text-align: center;
+    }
+    &__item img {
+        min-height: 40px;
+    }
+    &__item > h3 {
+        color: #ffffff;
+        font-size: 20px;
+        padding-top: 28px;
+        padding-bottom: 16px;
+    }
+    &__item > p {
+        color: #fbfbfb;
+        font-size: $size;
+        font-weight: 300;
+        font-style: normal;
+        line-height: 17px;
+    }
+}

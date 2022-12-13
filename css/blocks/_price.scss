@@ -1,0 +1,60 @@
+.price {
+	margin-bottom: 95px;
+    &__block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 0 0 48px 0;
+    }
+    &__title {
+        text-align: center;
+    }
+    &__title > h2 {
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 400;
+    }
+    &__title > p {
+        font-size: $size;
+        color: #9f9f9f;
+        padding-top: 6px;
+        padding-bottom: 48px;
+    }
+    &__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 360px;
+        height: 581px;
+        background-color: #f8f8f8;
+    }
+    &__info {
+        padding: 24px 45px 20px 16px;
+    }
+    &__info > a {
+        text-decoration: none;
+        color: black;
+    }
+    &__info > p {
+        font-size: $size;
+        color: #5d5d5d;
+        padding: 13px 45px 18px 0;
+        font-weight: 300;
+    }
+    &__info > span {
+        color: $pink;
+        font-size: 16px;
+    }
+    &__button {
+        display: flex;
+        justify-content: center;
+    }
+    &__button > a {
+        text-decoration: none;
+        color: $pink;
+        font-size: 16px;
+        outline: $pink solid 1px;
+        padding: 15px 39px 14px 39px;
+    }
+}

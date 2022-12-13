@@ -1,0 +1,59 @@
+.conclusion {
+	padding: 0 10px;
+	background-image: url('../img/Pic.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+    &__block {
+        z-index: 99;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.block__left {
+	width: 360px;
+	height: 225px;
+	font-size: 20px;
+	text-align: center;
+	padding: 97px 0 126px 0;
+    & > img {
+        padding-bottom: 30px;
+    }
+}
+
+.block__right {
+	width: 557px;
+	height: 142px;
+	text-align: center;
+    & > h2 {
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    & > p {
+        font-size: 18px;
+        font-weight: 400;
+        padding-bottom: 32px;
+    }
+}
+.right__button {
+	display: flex;
+	justify-content: center;
+    & > button {
+        background-color: $pink;
+        color: #ffffff;
+        border-radius: 0 50px 50px 0;
+        width: 100px;
+        height: 49px;
+        border: none;
+        cursor: pointer;
+    }
+    & > input {
+        background-color: #e1e1e1;
+        border-radius: 50px 0 0 50px;
+        padding: 7px 22px;
+        width: 256px;
+        border: none;
+    }
+}

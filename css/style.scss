@@ -1,0 +1,56 @@
+$pink: #f16d7f;
+$size: 14px;
+$black-shadow: rgba(33, 22, 22, 0.7);
+
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+@import "blocks/header";
+
+/*cover styles*/
+
+@import "blocks/cover";
+
+/*collection styles*/
+
+@import "blocks/collection";
+
+/* Intro styles */
+
+@import "blocks/intro";
+
+/* Product styles */
+
+@import "blocks/product";
+
+/*price*/
+
+@import "blocks/price";
+
+/*services*/
+
+@import "blocks/services";
+
+/*conclusion*/
+
+@import "blocks/conclusion";
+
+/*footer*/
+
+@import "blocks/footer";
+
+/*breadcrumb*/
+
+@import "blocks/breadcrumb";
+
+/*filter*/
+
+@import "blocks/filter";

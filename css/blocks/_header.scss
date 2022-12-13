@@ -1,0 +1,40 @@
+.header {
+	background: #222222;
+    &_block {
+        display: flex;
+        align-items: center;
+        padding: 19px 0;
+    }
+    &__left,
+    &__right {
+	width: 50%;
+    }
+    &__left {
+        display: flex;
+        align-items: center;
+    }
+    &__right {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    &__item {
+        cursor: pointer;
+        text-decoration: none;
+        &:not(:last-child) {
+            margin-right: 33px;
+        }
+    }
+    &__logo {
+        margin-right: 33px;
+    }
+}
+.icon {
+	fill: #E8E8E8;
+    &:hover {
+        fill: $pink;
+    }
+    &__button {
+		fill: black;
+    }
+}

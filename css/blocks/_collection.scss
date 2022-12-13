@@ -1,0 +1,74 @@
+.collection__block {
+	padding-bottom: 128px;
+	text-align: center;
+    & > span {
+        font-size: 24px;
+        font-weight: 300;
+        color: $pink;
+        &:after {
+            content: '';
+            display: block;
+            width: 642px;
+            height: 1px;
+            background-color: #EAEAEA;
+            margin: 64px auto;
+        }
+    }
+    & > p {
+        font-size: $size;
+        font-weight: 300;
+        line-height: 17px;
+        margin: 0 293px 32px;
+        color: #5E5E5E;
+    }
+    & > h3 {
+        font-size: 18px;
+        font-weight: 300;
+        padding-bottom: 48px;
+    }
+    & > h2 {
+        font-size: $size;
+        font-weight: 300;
+        color: $pink;
+        &:after {
+            content: '';
+            display: block;
+            width: 63px;
+            height: 3px;
+            background-color: $pink;
+            margin: 12px auto;
+        }
+    }
+}
+.choose {
+	display: flex;
+    justify-content: center;
+    max-width: 100%;
+	padding-bottom: 48px;
+}
+.quantity__block {
+	display: block;
+    color: #6F6E6E;
+    font-size: $size;
+    padding-right: 28px;
+}
+.cart {
+	margin: 0 23px;
+    &__block {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin: 0 auto;
+        border: solid 1px $pink;
+        background-color: #FFFFFF;
+        width: 212px;
+        height: 48px;
+    }
+    &__block > a {
+        text-decoration: none;
+        color: $pink;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}

@@ -1,0 +1,26 @@
+.breadcrumb {
+	background-color: #f8f3f4;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        color: $pink;
+        font-size: 24px;
+        padding: 59px 0 60px 0;
+    }
+    &__links {
+        padding: 65px 0 66px 0;
+    }
+    &__links > a {
+        text-decoration: none;
+        color: #222222;
+        font-size: $size;
+        font-weight: 300;
+    }
+    &__links > a.active {
+        color: $pink;
+        font-weight: 700;
+    }
+}

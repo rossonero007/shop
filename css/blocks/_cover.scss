@@ -1,0 +1,42 @@
+.slide {
+	margin: 50px auto;
+    &-block {
+        display: flex;
+        justify-content: center;
+    }
+}
+.cover {
+	overflow-y: hidden;
+    & > div {
+        width: 100%;
+    }
+}
+
+.button__slide {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 11px 0 42px 0;
+	}
+.button__left,
+.button__right {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.flex-slide {
+		display: flex;
+		overflow-y: hidden;
+		position: relative;
+
+}
+.arrow {
+	position: absolute;
+	top: 50%;
+	z-index: 99;
+	border: none;
+	background-color: none;
+    &.right {
+        right: 0;
+    }
+}
