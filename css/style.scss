@@ -54,3 +54,68 @@ body {
 /*filter*/
 
 @import "blocks/filter";
+
+/*shop*/
+.shop {
+	display: flex;
+	flex-wrap: wrap;
+}
+.purchase__up {
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+	width: 652px;
+	margin: 96px 128px 40px 0;
+	box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);	
+}
+.purchase__title {
+	display: flex;
+	justify-content: space-around;
+}
+.purchase__title > h2 {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+}
+.purchase__price {
+	position: relative;
+    padding: 0 31px 0 31px;
+    width: 100%;
+}
+.shop__price {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 26px;
+	color: #575757;
+	padding: 6px 237px 6px 31px;
+	& > span {
+		color: $pink;
+	}
+}
+.shop__amount {
+	color: #656565;
+	border: #EAEAEA solid 1px;
+	padding: 1px 16px 1px 16px;
+}
+.shipping__block > h2 {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	color: #222222;
+	padding-bottom: 20px;
+}
+.shipping__block {
+	display: flex;
+	flex-direction: column;
+	margin: 113px 230px 57px 0;
+}
+.ship {
+	margin-bottom: 20px;
+	height: 45px;
+	padding: 0 10px;
+	border: 1px solid #A4A4A4;
+	background-color: #fff;
+	width: 360px;
+	padding: 10px 15px;
+	background-color: #eee;
+}
