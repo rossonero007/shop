@@ -614,12 +614,11 @@ li {
   flex-wrap: wrap;
 }
 
-.purchase__up {
+.purchase__left {
   display: flex;
-  flex-direction: row;
   align-items: center;
   width: 652px;
-  margin: 96px 128px 40px 0;
+  margin: 96px 0 40px 0;
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
 }
 
@@ -668,7 +667,7 @@ li {
 .shipping__block {
   display: flex;
   flex-direction: column;
-  margin: 113px 230px 57px 0;
+  margin: 113px 0 57px 0;
 }
 
 .ship {
