@@ -616,15 +616,15 @@ li {
 .purchase__left {
   display: flex;
   align-items: center;
-  width: 652px;
-  margin: 96px 0 20px 0;
+  width: 628px;
+  margin: 96px 0 72px 0;
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
 }
 
 .purchase__right {
   display: flex;
   flex-direction: column;
-  width: 360px;
+  align-items: flex-end;
 }
 
 .purchase__title {
@@ -681,7 +681,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  margin: 113px 0 57px 50px;
+  margin: 113px 0 98px 50px;
 }
 
 .ship {
@@ -726,8 +726,9 @@ li {
 .checkout__block {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
   background-color: #F5F3F3;
-  padding: 39px 34px 42px 44px;
+  padding: 39px 43px 42px 44px;
 }
 
 .crout {
@@ -741,22 +742,39 @@ li {
 .treep {
   text-align: end;
   padding-top: 12px;
-}
-
-.treep::after {
-  content: "";
-  display: block;
-  width: 275px;
-  height: 1px;
-  background-color: #E2E2E2;
-  margin-top: 21px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  border-bottom: 1 px solid #E2E2E2;
+  padding-bottom: 21px;
 }
 
 .proceed {
+  border: none;
   background-color: #F16D7F;
   color: #fff;
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
+  text-transform: uppercase;
+  padding: 15px 42px 16px 42px;
+}
+
+.purchase__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 128px;
+}
+
+.button__left,
+.button__right {
+  padding: 17px 40px 16px 40px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  background-color: #fff;
+  border: 1px solid #A4A4A4;
   text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
