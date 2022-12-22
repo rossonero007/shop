@@ -11,3 +11,19 @@
         align-items: center;
     }
 }
+.href {
+    background-color: #fff;
+    padding: 7px;
+    &:not(:last-child) {
+        margin: 0 20px 0 0;
+    }
+    &:hover {
+        background: $pink;
+    }
+}
+.tools {
+    
+}
+.tools:hover {
+    fill: $pink;
+}

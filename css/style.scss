@@ -187,8 +187,8 @@ body {
 	align-items: center;
 	margin-bottom: 128px;
 }
-.button__left,
-.button__right {
+.button__1,
+.button__2 {
 	padding: 17px 40px 16px 40px;
 	font-weight: 300;
 	font-size: 14px;
@@ -197,4 +197,107 @@ body {
 	background-color: #fff;
 	border: 1px solid #A4A4A4;
 	text-transform: uppercase;
+}
+.button__1:hover {
+	color: #fff;
+	background-color: $pink;
+	border-radius: 10px;
+}
+.button__2:hover {
+	color: #fff;
+	background-color: $pink;
+	border-radius: 10px;
+}
+.account__block {
+	display: flex;
+
+}
+.account__left {
+	margin-top: 64px;
+}
+.account__left > h2 {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	color: #222222;
+	margin-bottom: 20px;
+}
+.account__right {
+	margin: 64px 0 280px 128px;
+}
+.account__right > h1 {
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+	text-transform: uppercase;
+	color: #000000;
+	margin-bottom: 22px;
+}
+.account__right > p {
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+	color: #000000;
+	margin-bottom: 21px;
+}
+.account__form {
+	display: flex;
+	flex-direction: column;
+}
+.account__text {
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 16px;
+	color: #B1B1B1;
+	margin-bottom: 39px;
+}
+.account__list {
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+	color: #000000;
+}
+.list {
+	padding-right: 22px;
+}
+.field {
+	width: 360px;
+	height: 45px;
+	margin-bottom: 20px;
+	&::placeholder {
+		padding: 13px 278px 14px 17px;
+	}
+}
+.gender { 
+	margin-bottom: 33px;
+	font-weight: 300;
+	font-size: 11px;
+	line-height: 13px;
+	color: #000000;
+	padding-right: 50px;
+}
+
+.account__join {
+	border: none;
+	background-color: $pink;
+	padding: 16px 36px 17px 29px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #FFFFFF;
+}
+.join {
+	fill: #fff;
+	padding-left: 20px;
+}
+.join:hover {
+	color: $pink;
+}
+.account__join:hover {
+	background-color: #fff;
+	color: $pink;
+	border: 1px solid;
+	& > svg {
+		fill: $pink;
+	}
 }
