@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "Lato", sans-serif;
 }
@@ -219,21 +220,37 @@ h1 > .decor {
   justify-content: space-between;
   gap: 30px;
 }
+@media screen and (max-width: 1090px) {
+  .product__block {
+    gap: 20px;
+  }
+}
 .product__item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 360px;
+  width: 31%;
   height: 260px;
   line-height: 28px;
   color: white;
   font-size: 16px;
   background-repeat: no-repeat;
+  background-size: contain !important;
 }
 .product__item:last-child {
   width: 100%;
   height: 180px;
+}
+@media screen and (max-width: 1090px) {
+  .product__item {
+    height: 167px;
+  }
+}
+@media screen and (max-width: 525px) {
+  .product__item {
+    width: 100%;
+  }
 }
 .product__item > span {
   color: #f16d7f;
@@ -300,6 +317,10 @@ h1 > .decor {
   font-size: 16px;
   outline: #f16d7f solid 1px;
   padding: 15px 39px 14px 39px;
+}
+.price__button > a:hover {
+  background-color: #f16d7f;
+  color: #fff;
 }
 
 /*services*/
@@ -413,19 +434,25 @@ h1 > .decor {
   align-items: center;
 }
 
-.href {
+.prof {
+  display: inline-flex;
   background-color: #fff;
   padding: 7px;
 }
-.href:not(:last-child) {
+.prof:not(:last-child) {
   margin: 0 20px 0 0;
 }
-.href:hover {
+.prof:hover {
   background: #f16d7f;
+  color: #fff;
+}
+
+.tools {
+  fill: black;
 }
 
 .tools:hover {
-  fill: #f16d7f;
+  fill: #fff;
 }
 
 /*breadcrumb*/
@@ -916,4 +943,11 @@ li {
 }
 .account__join:hover > svg {
   fill: #f16d7f;
+}
+
+/*Адаптивная верстка*/
+@media screen and (max-width: 1090px) {
+  .container {
+    max-width: 735px;
+  }
 }/*# sourceMappingURL=style.css.map */

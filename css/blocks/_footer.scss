@@ -11,7 +11,8 @@
         align-items: center;
     }
 }
-.href {
+.prof {
+    display:inline-flex;
     background-color: #fff;
     padding: 7px;
     &:not(:last-child) {
@@ -19,11 +20,13 @@
     }
     &:hover {
         background: $pink;
+        color: #fff;
     }
 }
-.tools {
-    
+.tools{
+    fill: black;
+   
 }
 .tools:hover {
-    fill: $pink;
+    fill: #fff;
 }

@@ -301,3 +301,9 @@ body {
 		fill: $pink;
 	}
 }
+/*Адаптивная верстка*/
+@media screen and (max-width: 1090px) {
+	.container {
+		max-width: 735px;
+	}
+}
