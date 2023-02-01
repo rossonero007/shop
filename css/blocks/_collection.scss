@@ -8,7 +8,7 @@
         &:after {
             content: '';
             display: block;
-            width: 642px;
+            width: 55%;
             height: 1px;
             background-color: #EAEAEA;
             margin: 64px auto;
@@ -62,7 +62,7 @@
         margin: 0 auto;
         border: solid 1px $pink;
         background-color: #FFFFFF;
-        width: 212px;
+        padding: 14px 39px 14px 14px;
         height: 48px;
     }
     &__block > a {

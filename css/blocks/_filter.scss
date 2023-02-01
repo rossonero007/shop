@@ -2,9 +2,11 @@
 	display: none;
 }
 .filter {
+    cursor: pointer;
 	display: block;
 	color: #000000;
 	font-size: $size;
+    fill: black;
     &__container {
         position: relative;
         padding: 51px 0 81px 0;
@@ -14,7 +16,7 @@
         position: absolute;
         top: 39px;
         padding: 13px 16px;
-        max-width: 360px;
+        max-width: 44%;
         background: white;
     }
     &__block[open] {
@@ -22,6 +24,7 @@
         color: $pink;
     }
     &__block[open] > .filter {
+        fill: $pink;
         color: $pink;
         margin: 0 0 16px 0;
     }
@@ -37,7 +40,7 @@
 	margin-bottom: 18px;
 	padding: 11px;
 	border-bottom: 1px solid #ebebeb;
-	width: 327px;
+	width: 301px;
 }
 
 li {
@@ -73,10 +76,12 @@ li {
     max-width: 100%;
 }
 .size__block {
+    cursor: pointer;
     display: block;
     color: #6F6E6E;
     font-size: $size;
     padding-right: 28px;
+    fill: #6F6E6E;
 }
 .checkbox__block {
     position: absolute;
@@ -88,6 +93,7 @@ li {
     width: 79px;
     height: 103px;
 	padding: 10px;
+    z-index: 9;
 }
 .custom-checkbox {
 	position: absolute;
