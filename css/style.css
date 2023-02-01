@@ -12,7 +12,7 @@ body {
 .header {
   background: #222222;
 }
-.header_block {
+.header__block {
   display: flex;
   align-items: center;
   padding: 19px 0;
@@ -48,6 +48,50 @@ body {
 }
 .icon__button {
   fill: black;
+}
+
+.menu__class {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.menu__class > h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  padding-top: 27px;
+}
+.menu__item {
+  display: block;
+}
+.menu__list {
+  position: absolute;
+  top: 79px;
+  right: 0;
+  background: white;
+}
+.menu__range {
+  display: block;
+  font-weight: 400;
+  color: #f16d7f;
+  padding: 11px;
+  width: 232px;
+  padding-left: 20px;
+}
+
+.jeans {
+  text-decoration: none;
+  font-size: 16px;
+  color: #6F6E6E;
+  font-weight: 300;
+  padding-left: 40px;
+}
+
+.cross {
+  fill: #6F6E6E;
 }
 
 /*cover styles*/
@@ -119,8 +163,9 @@ body {
   font-size: 14px;
   font-weight: 300;
   line-height: 17px;
-  margin: 0 293px 32px;
+  text-align: center;
   color: #5E5E5E;
+  margin-bottom: 32px;
 }
 .collection__block > h3 {
   font-size: 18px;
@@ -265,8 +310,45 @@ h1 > .decor {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 30px;
   margin: 0 0 48px 0;
+}
+.price__img__block {
+  position: relative;
+}
+.price__overlay {
+  position: absolute;
+  background: rgba(58, 56, 56, 0.86);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5;
+}
+.price__overlay:hover {
+  opacity: 1;
+}
+.price__img__cart {
+  padding-right: 10px;
+}
+.price__add {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #fff;
+  font-size: 14px;
+  fill: #fff;
+  display: flex;
+  align-items: center;
+}
+.price__add:hover {
+  background-color: #fff;
+  color: black;
+  fill: black;
+  cursor: pointer;
 }
 .price__title {
   text-align: center;
@@ -289,6 +371,7 @@ h1 > .decor {
   width: 360px;
   height: 581px;
   background-color: #f8f8f8;
+  margin-bottom: 15px;
 }
 .price__info {
   padding: 24px 45px 20px 16px;
@@ -335,7 +418,6 @@ h1 > .decor {
   justify-content: center;
 }
 .services__item {
-  width: 33%;
   max-width: 360px;
   text-align: center;
 }
@@ -359,7 +441,7 @@ h1 > .decor {
 /*conclusion*/
 .conclusion {
   padding: 0 10px;
-  background-image: url("../img/Pic.jpg");
+  background-image: url("/img/ocean.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
@@ -948,6 +1030,92 @@ li {
 /*Адаптивная верстка*/
 @media screen and (max-width: 1090px) {
   .container {
-    max-width: 735px;
+    max-width: 750px;
+  }
+  .services__block {
+    flex-direction: column;
+  }
+  .services__item {
+    padding-bottom: 49px;
+  }
+  .conclusion__block {
+    flex-direction: column;
+  }
+  .block__left {
+    padding: 64px 0 48px 0;
+  }
+  .block__right {
+    padding-bottom: 140px;
+  }
+  .treding {
+    display: flex;
+    justify-content: end;
+  }
+  .shop {
+    display: flex;
+    flex-direction: column;
+  }
+  .purchase__right {
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .account__right {
+    margin: 64px -6px 280px 49px;
+  }
+}
+@media screen and (max-width: 445px) {
+  .mobile__hidden {
+    display: none;
+  }
+  .intro {
+    height: calc(100vh - 78px);
+  }
+  .intro__block {
+    background-image: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro__text {
+    width: 60%;
+    font-size: 20px;
+    font-weight: 700;
+    border-left: 12px solid #f16d7f;
+  }
+  h1 > .large {
+    font-size: 38px;
+    font-weight: 900;
+  }
+  .price__block {
+    display: flex;
+    justify-content: center;
+  }
+  .price__card {
+    margin-bottom: 15px;
+  }
+  .footer {
+    padding-top: 10px;
+  }
+  .footer__block {
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .footer__item {
+    padding: 25px 10px 10px 10px;
+  }
+  .prof {
+    margin-bottom: 40px;
+  }
+  .breadcrumb__container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .breadcrumb__title {
+    padding: 50px 0 0 0;
+  }
+  .account__block {
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */

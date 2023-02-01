@@ -304,6 +304,100 @@ body {
 /*Адаптивная верстка*/
 @media screen and (max-width: 1090px) {
 	.container {
-		max-width: 735px;
+		max-width: 750px;
 	}
+	.services__block {
+		flex-direction: column;
+	}
+	.services__item {
+		padding-bottom: 49px;
+	}
+	.conclusion__block {
+		flex-direction: column;
+	}
+	.block__left {
+		padding: 64px 0 48px 0;
+	}
+	.block__right {
+		padding-bottom: 140px;
+	}
+	.treding {
+		display: flex;
+		justify-content:end;
+	}
+	.shop {
+		display: flex;
+		flex-direction: column;
+	}
+	.purchase__right {
+		justify-content: space-between;
+		flex-direction: column;
+		align-items: center;
+	}
+	.account__right {
+		margin: 64px -6px 280px 49px;
+	}
+}
+@media screen and (max-width: 445px) {
+	.mobile__hidden {
+		display: none;
+	}
+	.intro {
+		height: calc(100vh - 78px);
+		&__block {
+			background-image: none;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		&__text {
+			width: 60%;
+			font-size: 20px;
+			font-weight: 700;
+			border-left: 12px solid $pink;
+		}
+		
+	}
+	h1 {
+		& > .large {
+			font-size: 38px;
+			font-weight: 900;
+		}
+	}
+	.price {
+		&__block {
+			display: flex;
+			justify-content: center;
+		}
+		&__card {
+			margin-bottom: 15px;
+		}
+	}
+	.footer {
+		padding-top: 10px;
+		&__block {
+			justify-content: center;
+			flex-direction:column-reverse;
+		}
+		&__item {
+			padding: 25px 10px 10px 10px;
+		}
+	}
+	.prof {
+		margin-bottom: 40px;
+	}
+	.breadcrumb {
+		&__container {
+			justify-content: center;
+			flex-direction: column;
+		}
+		&__title {
+			padding: 50px 0 0 0;
+		}
+	}
+	.account__block {
+		display: flex;
+		flex-direction: column;
+	}
+
 }

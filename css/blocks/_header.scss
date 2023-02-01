@@ -1,6 +1,6 @@
 .header {
 	background: #222222;
-    &_block {
+    &__block {
         display: flex;
         align-items: center;
         padding: 19px 0;
@@ -37,4 +37,47 @@
     &__button {
 		fill: black;
     }
+}
+.menu {
+    &__class {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    & > h2 {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        padding-top: 27px;
+        }
+    }
+    &__item {
+        display: block;
+    }
+    &__list {
+        position: absolute;
+        top: calc(79px);
+        right: 0;
+        background: white;
+    }
+    &__range {
+    display: block;
+	font-weight: 400;
+	color: $pink;
+	padding: 11px;
+	width: 232px;
+    padding-left: 20px;
+    }
+}
+.jeans {
+    text-decoration: none;
+    font-size: 16px;
+    color: #6F6E6E;
+    font-weight: 300;
+    padding-left: 40px;
+}
+.cross {
+    fill: #6F6E6E;
 }
