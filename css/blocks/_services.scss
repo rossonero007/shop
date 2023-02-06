@@ -1,6 +1,6 @@
 .services {
 	background-color: #222224;
-	padding: 104px 0;
+	padding: 100px 0;
     &__block {
         display: flex;
         align-items: center;
@@ -8,16 +8,16 @@
         justify-content: center;
     }
     &__item {
-        max-width: 360px;
+        max-width: 380px;
         text-align: center;
     }
     &__item img {
-        min-height: 40px;
+        min-height: 35px;
     }
     &__item > h3 {
         color: #ffffff;
         font-size: 20px;
-        padding-top: 28px;
+        padding-top: 26px;
         padding-bottom: 16px;
     }
     &__item > p {
@@ -26,5 +26,6 @@
         font-weight: 300;
         font-style: normal;
         line-height: 17px;
+        padding: 0px 35px;
     }
 }

@@ -18,6 +18,9 @@
         color: #222222;
         font-size: $size;
         font-weight: 300;
+        &:hover {
+            color: $pink;
+        }
     }
     &__links > a.active {
         color: $pink;

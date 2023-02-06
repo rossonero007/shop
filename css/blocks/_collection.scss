@@ -64,6 +64,14 @@
         background-color: #FFFFFF;
         padding: 14px 39px 14px 14px;
         height: 48px;
+        fill: $pink;
+        &:hover {
+            fill: #FFFFFF;
+            background-color: $pink;
+            & > a {
+                color: #FFFFFF;
+            }
+        }
     }
     &__block > a {
         text-decoration: none;

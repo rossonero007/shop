@@ -61,6 +61,7 @@ body {
 
 }
 .purchase__left {
+	position: relative;
 	display: flex;
     align-items: center;
 	width: 100%;
@@ -139,6 +140,7 @@ body {
 	
 }
 .btn {
+	cursor: pointer;
 	background-color: #fff;
 	border: 1px solid #A4A4A4;
 	padding: 11px 15px;
@@ -172,6 +174,7 @@ body {
 
 }
 .proceed {
+	cursor: pointer;
 	border: none;
 	background-color: #F16D7F;
 	color: #fff;
@@ -189,6 +192,7 @@ body {
 }
 .button__1,
 .button__2 {
+	cursor: pointer;
 	padding: 17px 40px 16px 40px;
 	font-weight: 300;
 	font-size: 14px;
@@ -370,6 +374,11 @@ body {
 	.mobile__hidden {
 		display: none;
 	}
+	.prof {
+		&:not(:last-child) {
+			margin: 0;
+		}
+	}
 	.intro {
 		height: calc(100vh - 78px);
 		&__block {
@@ -403,6 +412,10 @@ body {
 	}
 	.footer {
 		padding-top: 10px;
+		&__list {
+			display: block;
+			padding: 0 10px;
+		}
 		&__block {
 			justify-content: center;
 			flex-direction:column-reverse;

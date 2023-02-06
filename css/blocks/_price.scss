@@ -4,7 +4,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 0 0 48px 0;
+        margin: 0 0 12px 0;
     }
     &__img__block {
         position: relative;
@@ -39,8 +39,9 @@
         align-items: center;
         &:hover {
             background-color: #fff;
-            color: black;
-            fill: black;
+            color: $pink;
+            fill: $pink;
+            border-color: $pink;
             cursor: pointer;
         }
     }
@@ -64,19 +65,28 @@
         justify-content: center;
         width: 360px;
         background-color: #f8f8f8;
-        margin-bottom: 15px;
+        margin-bottom: 22px;
     }
     &__info {
-        padding: 24px 45px 20px 16px;
+        padding: 25px 30px 30px 17px;
     }
     &__info > a {
         text-decoration: none;
         color: black;
+        & > h3 {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 16px;
+                &:hover {
+                    color: $pink;
+                }
+            }
     }
     &__info > p {
         font-size: $size;
         color: #5d5d5d;
-        padding: 13px 45px 18px 0;
+        padding: 17px 0px 27px 0px;
         font-weight: 300;
     }
     &__info > span {

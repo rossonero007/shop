@@ -2,8 +2,8 @@
 	background: #222222;
     &__block {
         display: flex;
-        align-items: center;
-        padding: 19px 0;
+        align-items:flex-end;
+        padding: 18px 0;
     }
     &__left,
     &__right {
@@ -11,11 +11,11 @@
     }
     &__left {
         display: flex;
-        align-items: center;
+        align-items: flex-end;
     }
     &__right {
         display: flex;
-        align-items: center;
+        align-items: flex-end;
         justify-content: end;
     }
     &__item {
@@ -26,10 +26,11 @@
         }
     }
     &__logo {
-        margin-right: 33px;
+        margin-right: 40px;
     }
 }
 .icon {
+
 	fill: #E8E8E8;
     &:hover {
         fill: $pink;
@@ -77,7 +78,13 @@
     color: #6F6E6E;
     font-weight: 300;
     padding-left: 40px;
+    &:hover {
+        color: $pink;
+    }
 }
 .cross {
+    position: absolute;
+    top: 0;
+    right: 20px;
     fill: #6F6E6E;
 }
