@@ -95,7 +95,7 @@ body {
 
 .cross {
   position: absolute;
-  top: 0;
+  top: 20px;
   right: 20px;
   fill: #6F6E6E;
 }
@@ -781,7 +781,8 @@ li {
   position: relative;
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 652px;
+  height: 306px;
   margin: 96px 0 72px 0;
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
 }
@@ -809,7 +810,6 @@ li {
 }
 
 .purchase__price {
-  position: relative;
   padding: 0 31px 0 31px;
   width: 100%;
 }
@@ -1115,6 +1115,29 @@ li {
   .field {
     width: 95%;
   }
+  .shop__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ship {
+    margin-bottom: 20px;
+    height: 45px;
+    border: 1px solid #A4A4A4;
+    background-color: #fff;
+    width: 300px;
+  }
+  .checkout__block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #F5F3F3;
+    padding: 39px 43px 42px 44px;
+    margin-bottom: 90px;
+  }
+  .shipping__block {
+    margin: 40px 0;
+  }
 }
 @media screen and (max-width: 755px) {
   .breadcrumb__container {
@@ -1134,6 +1157,66 @@ li {
   }
   .field {
     width: 100%;
+  }
+  .button__1,
+.button__2 {
+    cursor: pointer;
+    padding: 9px 18px 9px 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #575757;
+    background-color: #fff;
+    border: 1px solid #A4A4A4;
+  }
+  .shop__price {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #575757;
+    padding: 6px;
+  }
+  .purchase__title {
+    padding-bottom: 25px;
+  }
+  .shop__amount {
+    padding: 1px 5px 1px 5px;
+    margin-left: 2px;
+  }
+  .right__button > button {
+    width: auto;
+  }
+  .pick {
+    width: 144px;
+    height: 188px;
+  }
+  .purchase__left {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 360px;
+    height: 188px;
+    margin: 30px 0 30px 0;
+  }
+  .shop__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .purchase__title > h2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+  }
+  .checkout__block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #F5F3F3;
+    padding: 39px 43px 42px 44px;
+    margin-bottom: 90px;
   }
 }
 @media screen and (max-width: 445px) {
@@ -1197,5 +1280,75 @@ li {
   .account__block {
     display: flex;
     flex-direction: column;
+  }
+  .shop__price {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #575757;
+    padding: 4px;
+  }
+  .button__1,
+.button__2 {
+    cursor: pointer;
+    padding: 9px 18px 9px 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #575757;
+    background-color: #fff;
+    border: 1px solid #A4A4A4;
+  }
+  .purchase__title {
+    padding-bottom: 25px;
+  }
+  .shop__amount {
+    padding: 1px 5px 1px 5px;
+    margin-left: 2px;
+  }
+  .right__button > button {
+    width: auto;
+  }
+  .pick {
+    width: 144px;
+    height: 188px;
+  }
+  .purchase__left {
+    width: 360px;
+    height: 188px;
+  }
+  .shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .purchase__title > h2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .cross {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    fill: #6F6E6E;
+  }
+  .checkout__block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #F5F3F3;
+    padding: 39px 43px 42px 44px;
+    margin-bottom: 90px;
+  }
+  .block__left {
+    width: auto;
+  }
+}
+@media screen and (max-width: 360px) {
+  .purchase__left {
+    width: 300px;
   }
 }/*# sourceMappingURL=style.css.map */
